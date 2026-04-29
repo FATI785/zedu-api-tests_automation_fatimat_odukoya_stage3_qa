@@ -52,7 +52,7 @@ README.md
 
 ## Setup Instructions
 
-### 1. Clone the repository
+### 1.  Clone the repository
 
 ```bash
 git clone https://github.com/FATI785/zedu-api-tests_automation_fatimat_odukoya_stage3_qa.git
