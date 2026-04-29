@@ -1,41 +1,59 @@
-# Zedu API Test Automation Framework
+# ZEDU API Test Automation Project
 
-This is a pytest-based API test automation framework for validating core backend services including authentication, organisations, channels, roles, and user-related endpoints.
+## Project Overview
+This project is an API automation test suite built using Python and pytest.
+
+It validates core backend functionalities including:
+- Authentication (register, login, protected routes)
+- User management
+- Organisation management
+- Channel operations (create, join, leave)
+- Role management
+- Protected endpoint access control
+
+The suite is designed to ensure API reliability, correctness, and proper access control across all modules.
 
 ---
 
-## Tech Stack
+## Prerequisites
 
-- Python
-- Pytest
-- Requests
-- Python-dotenv
+Ensure the following are installed:
+
+- Python 3.10+
+- pip (Python package manager)
+- pytest
+- requests
+- python-dotenv
+
+All dependencies are listed in `requirements.txt`.
 
 ---
 
 ## Project Structure
 tests/
-auth/
-organisations/
-channels/
-roles/
-users/
+│── test_auth.py
+│── test_organisations.py
+│── test_channels.py
+│── test_roles.py
+│── test_users.py
+│── test_protected_endpoints.py
 
 utils/
-auth.py
-helpers.py
-test.data.py
+│── auth.py
+│── helpers.py
 
 conftest.py
 requirements.txt
+.env.example
+README.md
 
 
 ---
 
 ## Setup Instructions
 
-### 1. Clone repository
-```bash
-git clone <repo-url>
-cd zedu-api-tests
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/FATI785/zedu-api-tests_automation_fatimat_odukoya_stage3_qa.git
+cd zedu-api-tests_automation_fatimat_odukoya_stage3_qa
